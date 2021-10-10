@@ -1,0 +1,46 @@
+﻿
+/* Cafetria Table List View */
+
+
+body > form[action^="/Cafeteria_Menu/Lists/cafeteria_menu_"]:not([action$="Date.aspx"]) table.ms-listviewtable tr > th {
+	border: 1px solid #cccccc;
+	border-left: 0;
+	font-weight: bold;
+	background: #0099FF;
+	color: #FFFFFF;
+}
+
+
+
+body > form[action^="/Cafeteria_Menu/Lists/cafeteria_menu_"]:not([action$="Date.aspx"]) table.ms-listviewtable tr > th > div.ms-vh-div a {	
+	color: #FFFFFF !important;
+}
+
+
+
+body > form[action^="/Cafeteria_Menu/Lists/cafeteria_menu_"]:not([action$="Date.aspx"]) table.ms-listviewtable tr > th:first-child {
+	border-bottom: 1px solid #cccccc;
+	border-left: 1px solid #cccccc;
+}
+
+
+
+body > form[action^="/Cafeteria_Menu/Lists/cafeteria_menu_"]:not([action$="Date.aspx"]) table.ms-listviewtable tr > th:last-child {
+	border-bottom: 1px solid #cccccc;
+}
+
+
+
+body > form[action^="/Cafeteria_Menu/Lists/cafeteria_menu_"]:not([action$="Date.aspx"]) table.ms-listviewtable > tbody > tr > td {
+	border: 1px solid #cccccc;
+	border-left: 0;
+	border-bottom: 0;
+}
+
+
+body > form[action^="/Cafeteria_Menu/Lists/cafeteria_menu_"]:not([action$="Date.aspx"]) table.ms-listviewtable > tbody > tr:last-child > td {
+	border-bottom: 1px solid #cccccc;
+}
+/**/
+
+
