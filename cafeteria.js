@@ -124,4 +124,5 @@ $(document).ready(function () {
     /* --------------Cafeteria Menu - End --------------*/
 
 
-}); (jQuery);
+}); 
+$(jQuery);
