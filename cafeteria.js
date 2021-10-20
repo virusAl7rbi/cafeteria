@@ -5,7 +5,6 @@ $(document).ready(function () {
 
     var urlCafeteriaMenuDay = "http://sharqweb1.sabic.com/Cafeteria_Menu/Lists/cafeteria_menu_";
 
-    if (window.location.href.indexOf(urlCafeteriaMenuDay) > -1) {
 
         // Order Form Styling
         $('.ms-formtable tr > td hr').remove();
@@ -119,7 +118,6 @@ $(document).ready(function () {
             }
         }, 1000);
 
-    }
 
     /* --------------Cafeteria Menu - End --------------*/
 
